@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="about" xml:space="preserve">
+    <value>عن الشركه</value>
+  </data>
+  <data name="about us" xml:space="preserve">
+    <value>عن الشركه</value>
+  </data>
+  <data name="architechture design" xml:space="preserve">
+    <value>التصميم المعمارى</value>
+  </data>
+  <data name="blogs" xml:space="preserve">
+    <value>التدوين</value>
+  </data>
+  <data name="building construction" xml:space="preserve">
+    <value>تشيييد المبانى</value>
+  </data>
+  <data name="building maintenance" xml:space="preserve">
+    <value>صيانة المباني</value>
+  </data>
+  <data name="building renovation" xml:space="preserve">
+    <value>تجديد المبانى</value>
+  </data>
+  <data name="cloud hosting" xml:space="preserve">
+    <value>الاستضافه السحابيه</value>
+  </data>
+  <data name="Cloud Solution" xml:space="preserve">
+    <value>الحلول السحابيه</value>
+  </data>
+  <data name="Cloud Solutionا" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Communication" xml:space="preserve">
+    <value>الاتصالات</value>
+  </data>
+  <data name="Company" xml:space="preserve">
+    <value>الشركه</value>
+  </data>
+  <data name="construction" xml:space="preserve">
+    <value>المقاولات</value>
+  </data>
+  <data name="construction consultant" xml:space="preserve">
+    <value>خبير استشارى</value>
+  </data>
+  <data name="construction, design" xml:space="preserve">
+    <value>التصميم و البناء</value>
+  </data>
+  <data name="contact" xml:space="preserve">
+    <value>تواصل</value>
+  </data>
+  <data name="Creativity Corner Company offers the latest security technologies with the best engineers and specialized experts" xml:space="preserve">
+    <value>تقدم الشركه احدث تقنيات الامان مع افضل  المهندسين والخبراء المختصين</value>
+  </data>
+  <data name="dream home" xml:space="preserve">
+    <value>منزل الاحلام</value>
+  </data>
+  <data name="Excellence is the end result of knowing understanding embracing and achieving core values In the fall of 2007 site and office staff met outside to discuss core values We wanted to know what are the absolute principles that define the way New Middle East General Contracting Company operates Actually we wanted an analysis of the company's DNA" xml:space="preserve">
+    <value>الامتياز هو النتيجة النهائية لمعرفة وفهم واحتضان وتحقيق القيم الأساسية . ففي خريف عام 2007 التقى العاملين الموقع والمكتب خارجاً لمناقشة القيم الأساسية .أردنا أن نعرف ما هي المبادئ المطلقة التي تحدد الطريقة التي  تعمل بها شركة الشرق الأوسط الجديد للمقاولات العامة . فعلياً أردنا تحليلاً للحمض النووي للشركة </value>
+  </data>
+  <data name="Fiber Obtics" xml:space="preserve">
+    <value>الالياف الضوئيه</value>
+  </data>
+  <data name="fiber obtics product" xml:space="preserve">
+    <value>الالياف الضوئيه</value>
+  </data>
+  <data name="get started" xml:space="preserve">
+    <value>يمكنك البدء</value>
+  </data>
+  <data name="Hello" xml:space="preserve">
+    <value>مرحبا</value>
+  </data>
+  <data name="help the project owner obtain all the necessary building and trade-specific permits to complete the project" xml:space="preserve">
+    <value>مساعدة صاحب المشروع في الحصول على جميع التصاريح اللازمة للبناء والتجارة لإكمال المشروع</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الصفخه الرئيسيه</value>
+  </data>
+  <data name="house renovation" xml:space="preserve">
+    <value>تجديد المنازل</value>
+  </data>
+  <data name="interior design" xml:space="preserve">
+    <value>التصميم الداخلي</value>
+  </data>
+  <data name="Internet of Things" xml:space="preserve">
+    <value>انترنت الاشياء</value>
+  </data>
+  <data name="is at forefront in the field of building and maintaing communication network" xml:space="preserve">
+    <value>نحن في الصدارة في مجال بناء وصيانة شبكة الاتصالات</value>
+  </data>
+  <data name="IT &amp; Communication" xml:space="preserve">
+    <value>تكنولوجيا المعلومات والاتصالات</value>
+  </data>
+  <data name="IT Services offers a full range of cloud strategic services to help your business take full advantage of cloud computing" xml:space="preserve">
+    <value>تقدم خدمات تكنولوجيا المعلومات مجموعة كاملة من الخدمات الاستراتيجية السحابية لمساعدة أعمالك على الاستفادة الكاملة من الحوسبة السحابية</value>
+  </data>
+  <data name="It was established in 2005 to participate in and make a contributetion towards the monumental tasks require to develop the modern nation state it is today" xml:space="preserve">
+    <value>تأسست في عام 2005 للمشاركة والمساهمة في المهام الضخمة اللازمة لتطوير الدولة القومية الحديثة التي هي عليها اليوم</value>
+  </data>
+  <data name="make indoor spaces functional, safe, and beautiful by determining space requirements and selecting essential and decorative items" xml:space="preserve">
+    <value>جعل المساحات الداخلية عملية وآمنة وجميلة من خلال تحديد متطلبات المساحة واختيار العناصر الأساسية والديكورية</value>
+  </data>
+  <data name="material supply" xml:space="preserve">
+    <value>إمدادات المواد</value>
+  </data>
+  <data name="Materials and supplies are deemed to include goods used as inputs in a production process" xml:space="preserve">
+    <value>تعتبر المواد واللوازم تشمل السلع المستخدمة كمدخلات في عملية الإنتاج</value>
+  </data>
+  <data name="Network Solution" xml:space="preserve">
+    <value>حلول الشبكات</value>
+  </data>
+  <data name="Network Solution allow a flexible and secure connection to your business anytime and anywhere" xml:space="preserve">
+    <value>يسمح حل الشبكة باتصال مرن وآمن بعملك في أي وقت وفي أي مكان</value>
+  </data>
+  <data name="New Middle East General Communication Company" xml:space="preserve">
+    <value>شركة الاتصالات العامة الجديدة في الشرق الأوسط</value>
+  </data>
+  <data name="New Middle East General Contracting Company core values" xml:space="preserve">
+    <value>شركة الشرق الأوسط الجديد للمقاولات العامة القيم الأساسية</value>
+  </data>
+  <data name="NEW MIDDLE EST" xml:space="preserve">
+    <value>الشرق الاوسط الجديد</value>
+  </data>
+  <data name="our projects" xml:space="preserve">
+    <value>مشاريعنا</value>
+  </data>
+  <data name="our services" xml:space="preserve">
+    <value>خدماتنا</value>
+  </data>
+  <data name="Our sincerity reflects our honesty and integrity in our dealings with our customers and employees. Teamwork has been an integral part of our culture since the company was founded in 2005. And of course teamwork has to influence without mutual respect respect and consideration" xml:space="preserve">
+    <value>اخلاصنا يعكس امانتنا ونزاهتنا في تعاملنا مع عملائنا وموظفينا . العمل الجماعي بات جزءاً لا يتجزأ من ثقافتنا منذ تأسست الشركة عام 2005 . وبالطبع أنى للعمل الجماعي أن يؤثر دون تواصل مراعى ومنفتح واحترام متبادل بيننا</value>
+  </data>
+  <data name="our vission" xml:space="preserve">
+    <value>الرؤيه</value>
+  </data>
+  <data name="projects" xml:space="preserve">
+    <value>المشاريع</value>
+  </data>
+  <data name="read more" xml:space="preserve">
+    <value />
+  </data>
+  <data name="regularly and repairing items that are broken It can involve inspecting repairing and maintaining electrical systems" xml:space="preserve">
+    <value>بانتظام، وإصلاح العناصر المكسورة. ويمكن أن يشمل ذلك فحص وإصلاح وصيانة الأنظمة الكهربائية</value>
+  </data>
+  <data name="Road Blocker system-hydraulic security fendders" xml:space="preserve">
+    <value>حواجز الامن الهيدروليكية</value>
+  </data>
+  <data name="security barriers" xml:space="preserve">
+    <value>الحواجز الامنيه</value>
+  </data>
+  <data name="security surveillance Cameras" xml:space="preserve">
+    <value>كاميرات المراقبه الامنيه</value>
+  </data>
+  <data name="smart home , Sensors , Power Sources , Discovery Service" xml:space="preserve">
+    <value>المنزل الذكي، أجهزة الاستشعار، مصادر الطاقة، خدمة الاكتشاف</value>
+  </data>
+  <data name="Sservices" xml:space="preserve">
+    <value>الخدمات</value>
+  </data>
+  <data name="Telecom Infrastructure" xml:space="preserve">
+    <value>البنيه التحيه للاتصالات</value>
+  </data>
+  <data name="the designing and planning of structures where functionality and aesthetics are the two key elements of the process" xml:space="preserve">
+    <value>تصميم وتخطيط الهياكل حيث تكون الوظيفة والجماليات العنصرين الرئيسيين للعملية</value>
+  </data>
+  <data name="the process of adding structure to real property via various techniques" xml:space="preserve">
+    <value>عملية إضافة البنية إلى الممتلكات العقارية من خلال تقنيات مختلفة.</value>
+  </data>
+  <data name="the process of repairing and improving a building so that it is in good condition again" xml:space="preserve">
+    <value>إصلاح وتحسين المبنى بحيث يصبح في حالة جيدة مرة أخرى</value>
+  </data>
+  <data name="the structural and technical restoration or modernisation of one or several floors or even an entire existing structure" xml:space="preserve">
+    <value>الترميم الهيكلي والفني، أو تحديث طابق واحد أو عدة طوابق أو حتى مبنى قائم بالكامل</value>
+  </data>
+  <data name="the technology that transmits information as light pulses along a glass or plastic fiber" xml:space="preserve">
+    <value>التكنولوجيا التي تنقل المعلومات على شكل نبضات ضوئية على طول زجاج أو ألياف بلاستيكية</value>
+  </data>
+  <data name="To be recognized as the leader in the local market in the areas of Consultation  Constraction  Training  Designing and Implementing Turnkey projects offering clients a full range of service" xml:space="preserve">
+    <value>أن يتم الاعتراف بها كشركة رائدة في السوق المحلية في مجالات التدريب التقييدي الاستشاري تصميم وتنفيذ مشاريع تسليم المفتاح التي تقدم للعملاء مجموعة كاملة من الخدمات</value>
+  </data>
+  <data name="To be recognized as the leader in the local market in the areas of Consultation , Constraction , Training , Designing and Implementing projects offering clients a full range of service" xml:space="preserve">
+    <value>أن يتم الاعتراف بها كشركة رائدة في السوق المحلية في مجالات التشاور والتقييد والتدريب والتصميم وتنفيذ المشاريع التي تقدم للعملاء مجموعة كاملة من الخدمات</value>
+  </data>
+  <data name="We will provide you the best work which you dreamt for" xml:space="preserve">
+    <value>سنقدم لك أفضل عمل كنت تحلم به</value>
+  </data>
+</root>

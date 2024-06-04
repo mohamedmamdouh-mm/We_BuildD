@@ -1,0 +1,238 @@
+﻿@{
+    ViewData["Title"] = "Communication";
+}
+
+
+<div class="contact-info">
+    <div id="close-contact-info" class="fas fa-times"></div>
+
+    <div class="info">
+        <i class="fas fa-phone"></i>
+        <h3>phone number</h3>
+        <p>+966540008185</p>
+        <p>+966540008185</p>
+    </div>
+
+    <div class="info">
+        <i class="fas fa-envelope"></i>
+        <h3>email address</h3>
+        <p>Info@nmiddle.com</p>
+        <p>Info@nmiddle.com</p>
+    </div>
+
+    <div class="info">
+        <i class="fas fa-map-marker-alt"></i>
+        <h3>office address</h3>
+        <p>Riyadh, Al Izdihar district</p>
+    </div>
+
+    <div class="share">
+        <a href="#" class="fab fa-facebook-f"></a>
+        <a href="#" class="fab fa-twitter"></a>
+        <a href="#" class="fab fa-instagram"></a>
+        <a href="#" class="fab fa-linkedin"></a>
+    </div>
+</div>
+
+<!-- HOME -->
+<section class="home" id="home">
+    <div class="swiper home-slider">
+        <div class="swiper-wrapper">
+            <section class="swiper-slide slide" style="background: url(/images/info2.jfif) no-repeat;">
+                <div class="content">
+                    <h3>@SharedLocalizer.GetLocalizedString("New Middle East General Communication Company")</h3>
+                    <p>
+                        @SharedLocalizer.GetLocalizedString("It was established in 2005 to participate in and make a contributetion towards the monumental tasks require to develop the modern nation state it is today")
+                         
+                    </p>
+                    <a href="#about" class="btn">@SharedLocalizer.GetLocalizedString("get started")</a>
+                </div>
+            </section>
+
+            <section class="swiper-slide slide" style="background: url(/images/home-slide-2.jpg) no-repeat;">
+                <div class="content">
+                    <h3>making dream come to life</h3>
+                    <p>
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, odio voluptatem accusantium
+                        non
+                        molestias adipisci!
+                    </p>
+                    <a href="#about" class="btn">get started</a>
+                </div>
+            </section>
+
+            <section class="swiper-slide slide" style="background: url(/images/home-slide-3.jpg) no-repeat;">
+                <div class="content">
+                    <h3>from concept to creation</h3>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequatur aperiam, doloribus eius
+                        adipisci ex illum.
+                    </p>
+                    <a href="#about" class="btn">get started</a>
+                </div>
+            </section>
+        </div>
+
+      <!-- <div class="swiper-button-next"></div>
+           <div class="swiper-button-prev"></div>-->
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section class="about" id="about">
+    <h1 class="heading">@SharedLocalizer.GetLocalizedString("about us")</h1>
+
+    <div class="row">
+        <div class="video">
+            <video src="~/images/tecno.mp4" loop muted autoplay></video>
+        </div>
+
+        <div class="content">
+            <h3>@SharedLocalizer.GetLocalizedString("We will provide you the best work which you dreamt for")</h3>
+            <p>
+               @SharedLocalizer.GetLocalizedString("To be recognized as the leader in the local market in the areas of Consultation  Constraction  Training  Designing and Implementing Turnkey projects offering clients a full range of service") 
+            </p>
+            <a href="#services" class="btn">@SharedLocalizer.GetLocalizedString("read more")</a>
+        </div>
+    </div>
+</section>
+
+<!-- SERVICES -->
+<section class="services" id="services">
+    <h1 class="heading">@SharedLocalizer.GetLocalizedString("our services")</h1>
+
+    <div class="box-container">
+        <div class="box">
+            <img src="~/images/s1.jpg" alt="">
+            <h3>@SharedLocalizer.GetLocalizedString("Network Solution")</h3>
+            <p>@SharedLocalizer.GetLocalizedString("Network Solution allow a flexible and secure connection to your business anytime and anywhere")</p>
+        </div>
+
+        <div class="box">
+            <img src="~/images/s2.jpg" alt="">
+            <h3>@SharedLocalizer.GetLocalizedString("Telecom Infrastructure")</h3>
+            <p>@SharedLocalizer.GetLocalizedString("is at forefront in the field of building and maintaing communication network")</p>
+        </div>
+
+        <div class="box">
+            <img src="~/images/s6.png" alt="">
+            <h3>@SharedLocalizer.GetLocalizedString("security surveillance Cameras")</h3>
+            <p>@SharedLocalizer.GetLocalizedString("Creativity Corner Company offers the latest security technologies with the best engineers and specialized experts")</p>
+        </div>
+
+        <div class="box">
+            <img src="~/images/s7.png" alt="">
+            <h3>@SharedLocalizer.GetLocalizedString("Internet of Things")</h3>
+            <p>@SharedLocalizer.GetLocalizedString("smart home , Sensors , Power Sources , Discovery Service")</p>
+        </div>
+
+        <div class="box">
+            <img src="~/images/s8.png" alt="">
+            <h3>@SharedLocalizer.GetLocalizedString("Cloud Solution")</h3>
+            <p>@SharedLocalizer.GetLocalizedString("IT Services offers a full range of cloud strategic services to help your business take full advantage of cloud computing") </p>
+        </div>
+
+        <div class="box">
+            <img src="~/images/s9.png" alt="">
+            <h3>@SharedLocalizer.GetLocalizedString("security barriers")</h3>
+            <p>@SharedLocalizer.GetLocalizedString("Road Blocker system-hydraulic security fendders")</p>
+        </div>
+
+        <div class="box">
+            <img src="~/images/s5.png" alt="">
+            <h3>@SharedLocalizer.GetLocalizedString("fiber obtics product")</h3>
+            <p>@SharedLocalizer.GetLocalizedString("the technology that transmits information as light pulses along a glass or plastic fiber")</p>
+        </div>
+
+        <div class="box">
+            <img src="~/images/s4.png" alt="">
+            <h3>@SharedLocalizer.GetLocalizedString("cloud hosting")</h3>
+            <p>@SharedLocalizer.GetLocalizedString("IT Services offers a full range of cloud strategic services to help your business take full advantage of cloud computing")</p>
+        </div>
+    </div>
+</section>
+
+<!-- PROJECTS -->
+<section class="projects" id="projects">
+    <h1 class="heading">@SharedLocalizer.GetLocalizedString("our projects")</h1>
+
+    <div class="box-container">
+        <a href="~/images/fiber.jfif" class="box">
+            <div class="image">
+                <img src="~/images/fiber.jfif" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>@SharedLocalizer.GetLocalizedString("Fiber Obtics")</h3>
+                    <p>@SharedLocalizer.GetLocalizedString("IT & Communication")</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="~/images/cloud.jfif" class="box">
+            <div class="image">
+                <img src="~/images/cloud.jfif" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>@SharedLocalizer.GetLocalizedString("Cloud Solution")</h3>
+                    <p>@SharedLocalizer.GetLocalizedString("IT & Communication")</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="~/images/IOT.jfif" class="box">
+            <div class="image">
+                <img src="~/images/IOT.jfif" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>@SharedLocalizer.GetLocalizedString("Internet of Things")</h3>
+                    <p>@SharedLocalizer.GetLocalizedString("IT & Communication")</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="~/images/network.jfif" class="box">
+            <div class="image">
+                <img src="~/images/network.jfif" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>@SharedLocalizer.GetLocalizedString("Network Solution")</h3>
+                    <p>@SharedLocalizer.GetLocalizedString("IT & Communication")</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="~/images/tel1.jfif" class="box">
+            <div class="image">
+                <img src="~/images/tel1.jfif" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>@SharedLocalizer.GetLocalizedString("Telecom Infrastructure")</h3>
+                    <p>@SharedLocalizer.GetLocalizedString("IT & Communication")</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+
+        <a href="~/images/cam2.jfif" class="box">
+            <div class="image">
+                <img src="~/images/cam2.jfif" alt="">
+            </div>
+            <div class="content">
+                <div class="info">
+                    <h3>@SharedLocalizer.GetLocalizedString("security surveillance Cameras")</h3>
+                    <p>@SharedLocalizer.GetLocalizedString("IT & Communication")</p>
+                </div>
+                <i class="fas fa-plus"></i>
+            </div>
+        </a>
+    </div>
+</section>
